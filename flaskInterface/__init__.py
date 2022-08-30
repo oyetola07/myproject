@@ -15,6 +15,7 @@ ALLOWED_EXTENSIONS = {'csv', 'xlsx'}
 app.config['SECRET_KEY']='b8b9f3d03b7514b9e92d628fe4a5b4da'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 app.config['UPLOAD_FOLDER'] = 'storage/files'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 
 
