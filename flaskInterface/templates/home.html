@@ -10,75 +10,17 @@
 
           <div class="col-md-6 col-sm-12 p-5">
             <div class="p-5 mt-3">
-              <h1 class="header_intro ">Automation AI</h1>
-              <p class="pt-3 text-black lh-lg">The Artificial inteligence that takes A.I to a whole new level, with a unique way of solving tasks.</p>
+              <h1 class="header_intro ">AI Microservices Agent </h1>
+              <p class="pt-3 text-black lh-lg">A General Purpose Intelligent System </p>
               <a href="{{url_for('Servicereg')}}" class="text-white  fw-bolder text-decoration-none"><button class="my-btn p-2 rounded fw-bolder mt-3">Explore</button></a>
             </div>
           </div>
-            <div class="col-md-6 col-sm-12">  
-                <img src="{{ url_for('static' , filename = 'img/Working_remotely.png') }}"  width="90%"/>
-            </div>
+          
+          <div class="col-md-6 col-sm-12">  
+            <img src="{{ url_for('static' , filename = 'img/Working_remotely.png') }}"  width="90%"/>
+          </div>
          
         </div>
       </div>
-      <section>
-       <p class="text-center fw-bolder mt-3"> <small>THE CAPABILITIES OF THIS AI? </small></p>     
-        <!-- <h2 class="text-center fw-bolder fs-3">Our Features work</h2> -->
-        
-
-        <div class="container  pt-4 mt-5">
-          <div class="row">
-
-            <div class="col-md-6   col-sm-12 mt-3">
-              <img src="{{ url_for('static' , filename = 'img/3740.jpg') }}" alt="domain_img" width="100%"/>
-             
-            </div>
-            <div class="col-md-6 col-sm-12 mt-3">
-              <div class="ps-2 p-3">
-                <img src="{{ url_for('static' , filename = 'img/domain_icon.png') }}" alt="search icon" width="60"/>
-                <h2 class="fw-bolder fs-3 mt-3 lh-base">MEDICAL</h2>
-                  <p class="fs-6 pt-3 lh-lg">Harness the true power of this Artificial inteligence in  the medical field with its edge cutting design in the detection of brain tumor, cancer detection , detection  of  early signs of type 2 diabetes  and much more</p>
-                  <p class="fw-bold"><a href="{{url_for('Task')}}" class="text-decoration-none text-warning">Choose or Add Task ----></a></p>
-    
-              </div>
-            </div>
-            <div class="col-md-6  col-sm-12">
-              <img src="{{ url_for('static' , filename = 'img/search-icon.png')}}" alt="search icon" width="60"/>
-              <h2 class="fw-bolder fs-3 mt-3 lh-base">FINANCE</h2>
-              <p class="fs-6 pt-3 lh-lg">Uncover the hidden messages in millions of transactional datas, spot fruad in the easiest way all you need do is upload your past data and leave the rest for the brilliant machine to unravel. Get stock price pridictions with almost 90% accuracy based on past data.</p>
-              <p class="fw-bolder"><a href="{{url_for('Dom')}}" class=text-decoration-none fw-bolder text-primary">Discover & Add Add Domains ----></a></p>
-            </div>
-            <div class="col-md-6 col-sm-12 mt-4">
-              <img src="{{ url_for('static' , filename =  'img/fintech.jpg') }}" alt="domain_img" width="100%"/>
-            </div>
-            <div class="col-md-6 col-sm-12 mt-3">
-              <img src="{{ url_for('static' , filename =  'img/data_protection.png') }}" alt="domain_img" width="100%"/>
-            </div>
-            <div class="col-md-5 col-sm-12 mt-3">
-              <img src="{{ url_for('static' , filename =  'img/search-icon.png') }}" alt="search icon" width="60"/>
-              <h2 class="fw-bolder fs-3 mt-3 lh-base">Work with as many domains as you can think of</h2>
-              <p class="fs-6 pt-3 lh-lg">Carry out Artificial inteligence  tasks on  a vast array of Domains  spanning accross all fields and also add your own personal Domain where you see lacking</p>
-              <p class="fw-bolder"><a href="{{url_for('register')}}" class="text-decoration-none fw-bolder text-primary"> Register Now to have access ----></a></p>
-            </div>
-
-            
-
-            
-            <div class="col-md-6 col-sm-12 mt-3">
-              <div class="ps-2 p-3">
-                <img src="{{ url_for('static' , filename =  'img/domain_icon.png') }}" alt="search icon" width="60"/>
-                <h2 class="fw-bolder fs-3 mt-3 lh-base">AUTOMATION</h2>
-                  <p class="fs-6 pt-3 lh-lg">This piece of technology uses  smarter methods to make automation faster  than previously perceived, through its unspervised learning ability, it is able to figure out seeminly impossible techniques to get the job.</p>
-                  <p class="fw-bold"><a href="{{url_for('Login')}}" class="text-decoration-none text-warning">Login to Start your task Automation ----></a></p>
-
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12 mt-3">
-              <img src="{{ url_for('static' , filename = 'img/domain_mockup.png') }}" alt="domain_img" width="100%"/>
-             
-            </div>
-
-          </div>
-        </div>
-      </section>
+       
     {% endblock content %}
